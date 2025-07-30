@@ -1,0 +1,33 @@
+{
+  "name": "text-to-image-app",
+  "version": "1.0.0",
+  "description": "A web application that generates images from text using Cloudflare's Dreamshaper model.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^3.11.2",
+    "jest": "^27.0.6",
+    "babel-loader": "^8.2.2",
+    "ts-loader": "^8.2.0"
+  },
+  "keywords": [
+    "text-to-image",
+    "cloudflare",
+    "dreamshaper",
+    "react"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
